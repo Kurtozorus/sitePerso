@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    </style>
+    <title>KurtoZ</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a href="#" class="navbar-brand"><img src="/doc/keepsmilelogo.png" alt=""></a>
+            <h1>Keep Smiling</h1>
+
+            <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="#navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle-navigation"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list text-warning" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex ">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Accueuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Live</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Vidéo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Forum</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="subheader">
+        <div id="News" class="tabcontent">
+            <h1>News</h1>
+            <p>London is the capital city of England.</p>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <h1>Les différents jeu</h1>
+            <p>Liste des differents jeu effectuer sur le stream.</p>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <h1>Tokyo</h1>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+          
+          <div id="Oslo" class="tabcontent">
+            <h1>Oslo</h1>
+            <p>Oslo is the capital of Norway.</p>
+          </div>
+          <button class="tablink" onclick="openCity('News', this, 'red')" id="defaultOpen">London</button>
+      <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+      <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+      <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+    </div>
+    <main>
+
+    </main>
+    <script src="subhead.js"></script>
+    <script src="/js/"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

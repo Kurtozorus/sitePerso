@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -12,9 +13,27 @@
 </head>
 <body>
     <header>
+    <div class="container-fluid">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+    </div>
+</header>
+    <header>
         <div class="containerhead flex">
-            <div class="logo"><a href=""></a></div>
-            <h1>Keep Smilling</h1>
+            <img class="logo" src="doc/keepsmilelogo.png" alt="">
+            <!-- <h1>Keep Smilling</h1> -->
             <nav class="menu">
                 <ul>
                     <li><a href="">Accueil</a></li>
@@ -26,14 +45,22 @@
         </div>
     </header>
     <main>
-        <div class="containermain flex">
-            <img src="doc/jeuxdustream.jpg"  alt="" height="360px" width="600px">
+        <div class="containermain">
+                <a class="Jeuxdustream">
+                    <img src="doc/jeuxdustream.jpg">
+                </a>
+                <a class="Jeuxfini" href="">
+                    <img src="doc/Jeuxfini.jpg" alt="">
+                </a>
+                <a class="Jeuxmulti" href="">
+                    <img src="doc/Jeuxmulti.jpg" alt="">
+                </a>
         </div>
+        <footer>
+            <div class="containerfooter flex">
+                <span class="Copyright">©KeepSmilling</span>
+            </div>
+        </footer>
     </main>
-    <footer>
-        <div class="containerfooter flex">
-            <span class="Copyright">©KeepSmilling</span>
-        </div>
-    </footer>
 </body>
 </html>
